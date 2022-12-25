@@ -22,6 +22,7 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
+  gem 'awesome_print'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -39,3 +40,4 @@ group :test do
   gem 'rspec-json_expectations'
   gem 'shoulda-matchers', '~> 4.0'
 end
+
